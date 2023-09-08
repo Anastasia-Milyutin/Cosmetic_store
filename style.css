@@ -1,0 +1,150 @@
+* {
+  font-family: "Lora", serif;
+  /* для заголовков и текста в фото*/
+  font-family: "Montserrat", sans-serif;
+  /* для параграфов*/
+  color: var(--Black, #261d1d);
+}
+/* header start*/
+header {
+  padding: 45px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.conteiner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+}
+.menu_link {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu_link:hover {
+  color: var(--Cian, #50c8d8);
+}
+.logo {
+  width: 163px;
+  height: 60px;
+  background: #ededed;
+}
+p.logo {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 49.389px;
+  font-style: normal;
+  font-weight: 500;
+}
+.social {
+  display: flex;
+  gap: 40px;
+}
+img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+/* header end*/
+
+/*conteiner-welcom start*/
+.conteiner-welcom {
+  padding: 0px 100px 100px;
+}
+.slider-block {
+  position: relative;
+}
+.slider-img {
+  width: 1300px;
+  height: 550px;
+  object-fit: contain;
+}
+.block_inside {
+  position: absolute;
+  border: 2px solid #bd3333;
+  width: 1200px;
+  height: 550px;
+  top: 0;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 800px;
+}
+.btn-left,
+.btn-right {
+  position: absolute;
+}
+/*conteiner-welcom end*/
+
+.button_inside {
+  position: fixed;
+  top: 45px;
+  right: 55px;
+  width: 60px;
+  height: 60px;
+  background: var(--Cian, #50c8d8);
+}
+@keyframes glowing {
+  0% {
+    background-color: #50c8d8;
+    box-shadow: 0 0 3px #3b94a0;
+  }
+  50% {
+    background-color: #50c8d8;
+    box-shadow: 0 0 10px #50c8d8;
+  }
+  100% {
+    background-color: #43a5b3;
+    box-shadow: 0 0 3px #43a5b3;
+  }
+}
+.button_inside {
+  animation: glowing 1300ms infinite;
+}
+.logo-phone {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-top: 11px;
+  margin-left: 7px;
+}
+
+/*section-quality start*/
+.section-quality {
+  padding: 140px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  position: relative;
+}
+.world {
+  position: absolute;
+  top: -140px;
+  z-index: -10;
+  color: rgba(248, 241, 227, 0.5);
+  font-family: Lora;
+  font-size: 140px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.paragraf {
+  width: 561px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.slider-small {
+  width: 480px;
+  height: 300px;
+}
+/*section-quality end*/
