@@ -84,7 +84,7 @@ img {
 
 .button_inside {
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   top: 45px;
   right: 55px;
   width: 60px;
@@ -474,3 +474,87 @@ h3 {
   height: 150px;
 }
 /*block-inst end*/
+
+/*section-reviews start*/
+.three {
+  text-align: center;
+  position: relative;
+}
+.review-p {
+  margin-left: 678px;
+  margin-top: -109px;
+  position: absolute;
+  font-family: Lora;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.flex-block_reviews {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.block-review {
+  z-index: 3;
+  width: 438px;
+  height: 444px;
+  background: #fff;
+  box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.07);
+  padding: 44px 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.date {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.name {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+}
+.block-grade {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.star {
+  width: 17px;
+  height: 17px;
+}
+.reviews {
+  width: 359px;
+  height: 267px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+/*section-reviews end*/
+
+/*block-inst two start*/
+.block {
+  padding: 17px 550px 82px 164px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h4 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.call {
+  height: 90px;
+  width: 350px;
+}
+/*block-inst two end*/
+
