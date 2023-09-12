@@ -540,7 +540,7 @@ h3 {
 /*section-reviews end*/
 
 /*block-inst two start*/
-.block {
+.block-insaid {
   padding: 17px 550px 82px 164px;
   display: flex;
   flex-direction: column;
@@ -553,8 +553,28 @@ h4 {
   line-height: 120%;
 }
 .call {
+  text-align: center;
   height: 90px;
   width: 350px;
 }
 /*block-inst two end*/
 
+/*footer start*/
+footer {
+  width: 1300px;
+  height: 174px;
+  background: var(--Light_gold, #f8f1e3);
+  margin-left: 100px;
+}
+.footer-flex {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-p {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/*footer end*/
