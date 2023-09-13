@@ -578,3 +578,24 @@ footer {
   margin-left: 100px;
 }
 /*footer end*/
+@media (max-width: 2000px) {
+  .conteiner{
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 1774px) {
+  .conteiner{
+    margin-left: 90px;
+  }
+}
+@media (max-width: 1586px) {
+  .conteiner{
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1505px) {
+  .conteiner{
+    margin-left: 1px;
+  }
+}
